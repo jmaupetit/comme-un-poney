@@ -3,8 +3,11 @@
   https://gist.github.com/mbostock/7607535
 */
 
-var margin = 20,
-    diameter = 600;
+var intFrameHeight = window.innerHeight;
+var intFrameWidth = window.innerWidth;
+
+var margin = 100,
+    diameter = intFrameHeight;
 
 var color = d3.scale.linear()
     .domain([-1, 5])
@@ -17,10 +20,10 @@ var pack = d3.layout.pack()
     .value(function(d) { return d.size; })
 
 var svg = d3.select("#dj-components").append("svg")
-    .attr("width", diameter)
-    .attr("height", diameter)
+    .attr("width", "100%")
+    .attr("height", "100%")
   .append("g")
-    .attr("transform", "translate(" + diameter / 2 + "," + diameter / 2 + ")");
+    .attr("transform", "translate(" + intFrameWidth / 2 + ", " + intFrameHeight / 2 + ")");
 
 
 d3.json("/data/django-components.json", function(error, root) {
