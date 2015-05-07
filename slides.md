@@ -8,7 +8,7 @@ Author : Julien Maupetit
 <div class="title">
     <h3>Comme un poney</h3>
     <h2>mais sans les ailes.</h2>
-    <h4>Un poney quoi.</h4>
+    <em>Un poney quoi.</em>
 
     <p>
         Julien Maupetit
@@ -19,16 +19,18 @@ Author : Julien Maupetit
 <!-- ---------- Section ---------- -->
 ## Disclaimer
 
-> My abstract was a lie.
+> Ceci n'est pas une présentation.
 
 ----
 <!-- ---------- Section ---------- -->
 
-## <span>1</span> Question 1 ?
+## Django c'est cool.
 
-----
-<!-- ---------- Section ---------- -->
+### pourquoi ?
 
-### Credits
+---
 
-* [xx](http://commons.wikimedia.org/wiki/File:Nucleotides_1.svg)
+## **M**odel **T**emplate **V**iew
+
+---
+#this
