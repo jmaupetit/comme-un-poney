@@ -205,17 +205,17 @@ footer.slide-footer {
                 cursor: pointer;
 
                 &:hover {
-                    stroke: #000;
+                    stroke: darken($linkColor, 10%);
                     stroke-width: 1.5px;
                 }
             }
 
             .node--leaf {
-                fill: white;
+                fill: $backgroundColor;
             }
 
             .label {
-                font: 11px "Helvetica Neue", Helvetica, Arial, sans-serif;
+                font: 14px $mainFont;
                 text-anchor: middle;
                 text-shadow: 0 1px 0 #fff, 1px 0 0 #fff, -1px 0 0 #fff, 0 -1px 0 #fff;
             }
