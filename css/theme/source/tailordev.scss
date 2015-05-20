@@ -102,8 +102,9 @@ footer.slide-footer {
             }
 
             p {
-                text-align: right;
+                text-align: center;
                 font-size: 0.8em;
+                margin-top: 1em;
             }
         }
 
@@ -191,6 +192,38 @@ footer.slide-footer {
 
         code {
             padding: 1em;
+        }
+
+        &#dj-components {
+            position: absolute;
+            width: 100vw;
+            height: 100vh;
+            margin: 0;
+            padding: 0;
+
+            .node {
+                cursor: pointer;
+
+                &:hover {
+                    stroke: darken($linkColor, 10%);
+                    stroke-width: 1.5px;
+                }
+            }
+
+            .node--leaf {
+                fill: $backgroundColor;
+            }
+
+            .label {
+                font: 14px $mainFont;
+                text-anchor: middle;
+                text-shadow: 0 1px 0 #fff, 1px 0 0 #fff, -1px 0 0 #fff, 0 -1px 0 #fff;
+            }
+
+            .label,
+            .node--leaf {
+                pointer-events: none;
+            }
         }
     }
 }

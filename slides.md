@@ -8,7 +8,7 @@ Author : Julien Maupetit
 <div class="title">
     <h3>Comme un poney</h3>
     <h2>mais sans les ailes.</h2>
-    <em>Un poney quoi.</em>
+    <em>"Un poney quoi."</em>
 
     <p>
         Julien Maupetit
@@ -27,10 +27,3 @@ Author : Julien Maupetit
 ## Django c'est cool.
 
 ### pourquoi ?
-
----
-
-## **M**odel **T**emplate **V**iew
-
----
-#this
