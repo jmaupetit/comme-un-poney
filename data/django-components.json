@@ -1,0 +1,83 @@
+{
+ "name": "djangoComponents",
+ "children": [
+  {
+   "name": "MODEL",
+   "children": [
+      {"name": "Field types", "size": 3938},
+      {"name": "QuerySets", "size": 3812},
+      {"name": "Migrations", "size": 4353},
+      {"name": "Transactions", "size": 743},
+      {
+       "name": "admin",
+       "children": [
+          {"name": "Admin site", "size": 300},
+          {"name": "Admin actions", "size": 500},
+          {"name": "Admin documentation generator", "size": 100}
+       ]
+      }
+   ]
+  },
+  {
+   "name": "TEMPLATE",
+   "children": [
+      {"name": "Variables", "size": 3938},
+      {"name": "Comments", "size": 2843},
+      {"name": "Tags & filters", "size": 654},
+      {"name": "Internationalization", "size": 3812},
+      {"name": "Inheritance", "size": 4353},
+      {"name": "Multiple backends", "size": 743},
+      {"name": "Engine", "size": 1351},
+      {"name": "Context", "size": 2467},
+      {"name": "Loaders", "size": 504},
+      {"name": "Context processors", "size": 400}
+   ]
+  },
+  {
+   "name": "VIEW",
+   "children": [
+      {"name": "Urlsconfs", "size": 3938},
+      {"name": "Decorators", "size": 3812},
+      {"name": "Built-in views", "size": 4353},
+      {"name": "Middlewares", "size": 4353},
+      {"name": "View functions", "size": 4353},
+      {"name": "Class-based views", "size": 4353},
+      {"name": "File uploads", "size": 743},
+      {
+       "name": "FORMS",
+       "children": [
+          {"name": "Field types", "size": 400},
+          {"name": "Model forms", "size": 300},
+          {"name": "Formsets", "size": 500},
+          {"name": "Form wizard", "size": 400},
+          {"name": "Custom validation", "size": 100}
+       ]
+      }
+   ]
+  },
+  {
+   "name": "misc",
+   "children": [
+      {"name": "Authentication", "size": 40},
+      {"name": "Caching", "size": 30},
+      {"name": "Logging", "size": 20},
+      {"name": "Emails", "size": 10},
+      {"name": "RSS/Atom feed", "size": 10},
+      {"name": "Pagination", "size": 40},
+      {"name": "Message framework", "size": 30},
+      {"name": "Serialization", "size": 20},
+      {"name": "Session", "size": 30},
+      {"name": "Sitemaps", "size": 10},
+      {"name": "Static files", "size": 30},
+      {"name": "Data validation", "size": 20},
+      {"name": "Content types", "size": 10},
+      {"name": "Flat pages", "size": 10},
+      {"name": "Redirects", "size": 20},
+      {"name": "Signals", "size": 60},
+      {"name": "Sites framework", "size": 20},
+      {"name": "Unicode", "size": 40},
+      {"name": "GeoDjango", "size": 30},
+      {"name": "Python 3", "size": 50}
+   ]
+  }
+]}
