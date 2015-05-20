@@ -26,7 +26,7 @@ var svg = d3.select("#dj-components").append("svg")
     .attr("transform", "translate(" + intFrameWidth / 2 + ", " + intFrameHeight / 2 + ")");
 
 
-d3.json("/data/django-components.json", function(error, root) {
+d3.json("../data/django-components.json", function(error, root) {
   if (error) return console.error(error);
 
   var focus = root,
