@@ -27,10 +27,3 @@ Author : Julien Maupetit
 ## Django c'est cool.
 
 ### pourquoi ?
-
----
-
-## **M**odel **T**emplate **V**iew
-
----
-#this
