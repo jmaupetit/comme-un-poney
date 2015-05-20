@@ -1,26 +1,4 @@
-# Bioinformatics in 10 minutes.
+# Comme un poney, mais sans les ailes. Un poney quoi.
 
-10 minutes to present 10 questions bioinformatics tries to answer to.
+A l'âge d'or des SPAs (Single Page Applications) boostées à grand renfort d'une offre front toujours plus importante, la part d'un framework tel que Django dans le développement d'une application web riche se réduit de plus en plus. Face à un tel constat, que devons-nous faire pour éviter de nous réveiller dans deux ans face à un poney qui a perdu ses pouvoirs magiques ?
 
-## Contributing
-
-### Dependencies
-
-You need to install `npm` first, and then install dependencies via:
-
-    $ npm install
-    $ bower install
-
-### Compile styles
-
-Once dependencies are installed, update styles with grunt:
-
-    $ grunt watch
-
-### Live server
-
-To test changes, you need to http-serve markdown-flavoured slides via:
-
-    $ python -mSimpleHTTPServer 8080
-
-Then, open your favourite browser at [http://localhost:8080](http://localhost:8080).
