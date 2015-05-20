@@ -2,6 +2,7 @@
   "name": "bioinformatics-10",
   "dependencies": {
     "compass-mixins": "*",
+    "d3": "*",
     "reveal.js": "*"
   }
 }
